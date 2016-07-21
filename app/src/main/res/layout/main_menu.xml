@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="#ee105a">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#eeeeee"/>
+    <LinearLayout
+        android:id="@+id/linearlayout_mainmenu_xiangce"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/xiangce"/>
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ee105a"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="从相册中选择"
+            android:textColor="#0e0103"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#eeeeee"/>
+    <LinearLayout
+        android:id="@+id/linearlayout_mainmenu_paizhao"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/paizhao"/>
+        <ImageView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ee105a"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="拍照"
+            android:textColor="#0e0103"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
